@@ -1,0 +1,73 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background: linear-gradient(#dd024f, #f745ec);
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.input{
+    width: 25%;
+    display: flex;
+    margin: auto;
+}
+.input input{
+    font-size: 22px;
+}
+.btn-add{
+    cursor: pointer;
+    font-size: 22px;
+    background-color: white;
+    color: deepskyblue;
+    font-weight: bold;
+    border: none;
+}
+.list{
+    background-color: white;
+    width: 25%;
+    display: block;
+    margin: 20px auto;
+}
+.btn-clean{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.list .empty{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+ul {
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+  }
+  
+  li p {
+    margin: 6px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+  }
+.btn-delete{
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: 10px;
+    height: 20px;
+}

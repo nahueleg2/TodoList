@@ -43,6 +43,8 @@ function addBtnDelete(){
 
 cleanbtn.addEventListener("click", (e) =>{
     const list = document.querySelectorAll("li");
+    const item = e.li.parentElement;
     for (let index = 0; index < list.length; index++) {
+        ul.removeChild(item);
     }
 });
